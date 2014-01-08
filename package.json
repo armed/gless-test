@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "gless-test",
+  "version": "0.0.1",
+  "description": "gulp less test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artem Medeusheyev <artem.medeusheyev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-less": "git://github.com/plus3network/gulp-less#4eacffc"
+  }
+}

@@ -1,0 +1,42 @@
+@import 'includes/mixins';
+
+html {
+  font-family: sans-serif;
+  font-size: 100%;
+  color: #555;
+  height: 100%;
+  width: 100%;
+}
+
+.tools {
+  .rounded-corners;
+  .tools-panel;
+  top: 10px;
+  left: 10px;
+}
+
+.props {
+  position: absolute;
+  background-color: #fff;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+  padding: 10px;
+  .rounded-corners();
+  tr {
+    font-size: 80%;
+    padding: 2px;
+    td:first-child {
+      color: #777;
+      font-weight: bold;
+    }
+  }
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
